@@ -1,0 +1,16 @@
+{
+  "name": "simple-synth",
+  "private": true,
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare"
+  },
+  "devDependencies": {
+    "@nuxt/devtools": "latest",
+    "gh-pages": "^6.0.0",
+    "nuxt": "^3.7.1"
+  }
+}
