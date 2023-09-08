@@ -3,4 +3,10 @@ export default defineNuxtConfig({
     modules: [
         'nuxt-icon',
     ],
+    postcss: {
+        plugins: {
+            tailwindcss: {},
+            autoprefixer: {},
+        },
+    },
 });
