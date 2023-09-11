@@ -1,4 +1,4 @@
-import {AudioContext, IAudioContext} from 'standardized-audio-context';
+import {IAudioContext} from 'standardized-audio-context';
 import {Ref} from '@vue/reactivity';
 
 export default function useAudio() {
