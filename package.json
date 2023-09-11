@@ -6,17 +6,20 @@
     "dev": "nuxt dev",
     "generate": "nuxt generate",
     "preview": "nuxt preview",
-    "postinstall": "nuxt prepare"
+    "postinstall": "nuxt prepare",
+    "deploy": "gh-pages -d dist -t"
   },
   "devDependencies": {
     "@nuxt/devtools": "latest",
     "autoprefixer": "^10.4.15",
+    "daisyui": "^3.7.3",
     "gh-pages": "^6.0.0",
     "nuxt": "^3.7.1",
     "postcss": "^8.4.29",
     "tailwindcss": "^3.3.3"
   },
   "dependencies": {
-    "nuxt-icon": "^0.5.0"
+    "nuxt-icon": "^0.5.0",
+    "standardized-audio-context": "^25.3.55"
   }
 }

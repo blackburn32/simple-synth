@@ -1,6 +1,8 @@
 # Simple Synth
 
-A minimal synthesizer
+A minimal synthesizer.
+
+You can try it out [here](https://blackburn32.github.io/simple-synth/).
 
 ## Setup
 
@@ -10,7 +12,7 @@ Install the dependencies:
 npm install
 ```
 
-## Development Server
+## Development
 
 Start the development server on `http://localhost:3000`:
 
@@ -18,7 +20,7 @@ Start the development server on `http://localhost:3000`:
 npm run dev
 ```
 
-## Production
+## Deployment
 
 Build the application:
 
@@ -27,7 +29,7 @@ Build the application:
 npm run generate
 ```
 
-Deploy to Github pages
+Deploy to Github pages:
 
 ```bash
 npm run deploy
