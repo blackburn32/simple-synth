@@ -25,7 +25,6 @@ npm run dev
 Build the application:
 
 ```bash
-# npm
 npm run generate
 ```
 
