@@ -3,7 +3,7 @@
         <div class="text-4xl">
             Simple Synth
         </div>
-        <Synthesizer class="max-w-4xl h-[70%]"/>
+        <Synthesizer class="max-w-4xl h-full md:h-[80%]"/>
         <NuxtLink
             class="absolute bottom-0 right-0"
             external="external"

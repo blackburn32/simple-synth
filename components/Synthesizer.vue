@@ -5,9 +5,6 @@
             <Envelope/>
             <Filter/>
         </div>
-        <PianoKeyboard :octave="4"/>
+        <PianoKeyboard class="min-h-[20%]" :octave="4"/>
     </div>
 </template>
-<script lang="ts" setup>
-
-</script>
